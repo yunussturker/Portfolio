@@ -1,5 +1,8 @@
 var typed = new Typed(".text", {
-  strings: ["Data Scientist", "Electrical Electronics Engineer"],
+  strings: [
+    "<span style='color: #bebebe;'>Data Scientist</span>",
+    "<span style='color: #bebebe;'>Electrical Electronics Engineer</span>"
+  ],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
