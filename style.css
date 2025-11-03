@@ -455,6 +455,28 @@ body {
 
 
 /* ---------------------------
+   Footer
+----------------------------*/
+.vertical-footer {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: rotate(-90deg) translateY(-50%);
+  transform-origin: left top;
+  font-size: 12px;
+  color: rgba(255,255,255,0.6);
+  letter-spacing: 1px;
+  font-family: 'Inter', sans-serif;
+  user-select: none;
+}
+
+.vertical-footer:hover {
+  color: #00ffff;
+  transition: color 0.3s ease;
+}
+
+
+/* ---------------------------
    Animasyonlar
 ----------------------------*/
 @keyframes slideRight {
@@ -482,3 +504,4 @@ body {
   .about p { font-size: 16px; }
   .skills-grid { gap: 25px; }
 }
+
