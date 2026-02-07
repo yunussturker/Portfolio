@@ -1,8 +1,7 @@
 var typed = new Typed(".text", {
   strings: [
-    "<span style='color: #bebebe;'>Data Engineer</span>",
-    "<span style='color: #bebebe;'>Business Intelligence Specialist</span>",
-    "<span style='color: #bebebe;'>Data Scientist</span>"
+    "<span style='color: #bebebe;'>Business Intelligence Supervisor</span>",
+    "<span style='color: #bebebe;'>Analytics Engineer</span>"
   ],
   typeSpeed: 90,
   backSpeed: 70,
@@ -116,3 +115,4 @@ function getAssistantReply(message) {
 
 document.querySelector("a[href='#home']").addEventListener("click", () => scrollToSection(".home"));
 document.querySelector("a[href='#about']").addEventListener("click", () => scrollToSection(".about"));
+
